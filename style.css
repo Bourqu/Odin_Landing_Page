@@ -1,0 +1,31 @@
+.first {
+    background-color: #1F2937;
+
+    color: #F9FAF8;
+    
+}
+
+.first h1{
+    font-size: 48px;
+    font-style:extra-bold; 
+}
+
+.first h2 {
+    font-size: 24px;
+}
+
+.first p{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.first nav{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.first button{
+    background-color: #3882F6;
+    color: #f9faf8;
+    border-radius: 4px
+}
