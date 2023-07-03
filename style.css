@@ -15,13 +15,13 @@
 
 .first h2 {
     font-size: 24px;
-    flex:3
+    flex:2;
+    margin-left: 130px;
 }
 
 .first p{
     font-size: 18px;
     color: #E5E7EB;
-    display: inline;
 }
 
 .first nav{
@@ -29,12 +29,21 @@
     display: inline-flex;
     flex:1;
     justify-content: space-between;
+    margin-right: 130px;
 }
 .first a{
 font-size: 18px;
     color: #E5E7EB;
     margin: 3px;
     text-decoration: none;
+
+}
+
+.first .two-span{
+    display:flex;
+    flex-direction: row;
+    margin:100px;
+
 }
 .first button{
     background-color: #3882F6;
@@ -43,9 +52,34 @@ font-size: 18px;
     height:30px;
     width:100px;
 }
+.first span{
+    display: inline-block;
+    flex:1;
+    margin: 30px;
+}
 
 .first header{
     display:flex;
     justify-content: space-between;
     align-items: flex-end;
+}
+
+
+.second h2{
+    text-align: center;
+}
+
+.second div{
+    display: flex;
+    justify-content:center;
+    flex-wrap: nowrap;
+}
+
+.second div span{
+    margin: 20px;
+}
+
+.second img{
+    height: 175px;
+    width: 175px;
 }
