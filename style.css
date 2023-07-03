@@ -1,3 +1,17 @@
+
+
+html, body {
+
+
+
+margin:0;
+
+padding:0;
+
+
+
+}
+
 .first {
     background-color: #1F2937;
 
@@ -45,7 +59,7 @@ font-size: 18px;
     margin:100px;
 
 }
-.first button{
+button{
     background-color: #3882F6;
     color: #f9faf8;
     border-radius: 10px;
@@ -79,6 +93,10 @@ font-size: 18px;
     margin: 20px;
 }
 
+.second p{
+    text-align: center;
+}
+
 .second img{
     height: 175px;
     width: 175px;
@@ -96,12 +114,32 @@ font-size: 18px;
     text-align: right;
 }
 
+.fourth {
+    padding: 40px 80px;
+   
+}
 
+.fourth div {
+    background-color: #3882F6;
+    color:#F9FAF8;
+    padding:35px 60px;
+    border-radius: 5px;
+    margin: 50px 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.fourth button {
+    border: 1px solid #f9faf8;
+    margin: 25px;
+
+}
 
 footer{
     background-color: #1F2937;
 
-    color: #F9FAF8;
+    color:  #F9FAF8;
     padding: 50px 0px;
 }
 
