@@ -83,3 +83,29 @@ font-size: 18px;
     height: 175px;
     width: 175px;
 }
+
+.third {
+    background-color: #E5E7EB;
+    font: 36px light italic #1F2937;
+
+    padding: 200px;
+}
+
+.third p strong{
+    display: block;
+    text-align: right;
+}
+
+
+
+footer{
+    background-color: #1F2937;
+
+    color: #F9FAF8;
+    padding: 50px 0px;
+}
+
+footer p{
+    
+    text-align: center;
+}
